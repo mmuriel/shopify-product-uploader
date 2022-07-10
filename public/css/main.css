@@ -1,0 +1,164 @@
+body{
+
+	background-color: #FFF;
+	font-size: 18px;
+
+}
+
+
+ul{
+	list-style-type: none;
+}
+
+
+.listview_vertical{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.listview_horizontal{
+
+	display: inline-block;
+    width: 8000px;
+    position: relative;
+
+}
+
+.listview_horizontal li{
+
+	float: left;
+
+}
+
+#app{
+
+	width: 100%;
+	margin: auto;
+	font-size: 12px;
+
+}
+
+header{
+
+	position: relative;
+	width: 100vw;
+
+	/* Flex-Box setup */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* flex-flow: row wrap; */
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+header figure{
+
+	width: 5rem;
+	padding: 0.5rem;
+	position: relative;
+	margin: 0px;
+	display: inline-block;
+
+}
+
+
+header nav{
+	
+	position: relative;
+	right: 0px;
+	display: inline-block;
+
+}
+
+
+header nav ul{
+	
+	position: relative;
+	right: 0px;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+header nav ul li{
+	
+	position: relative;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+header nav ul li a{
+	
+	text-decoration: none;
+	size: 2rem;
+	font-weight: 600;
+	padding: 0.5rem;
+
+}
+
+
+
+.slick-arrow{
+
+	position: fixed; 
+	top: 2rem; 
+	z-index: 100000; 
+	
+	font-size: 2rem; 
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 2rem;
+	background-color: #60739a;
+	text-align: center;
+	opacity: 0.2;
+	/* Transition */
+	
+
+}
+
+
+.slick-arrow a{
+
+	text-decoration: none;
+}
+
+
+.slick-arrow:hover{
+
+	transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+	opacity: 0.9;
+}
+
+#slick-arrow-left{
+	left: 0.4rem; 
+}
+
+#slick-arrow-right{
+	right: 0.4rem; 
+}
+
+.icon-nav-left:before {
+    content: "<";
+    position: absolute;
+	left: 0.5rem;
+	top: 0.1rem;
+}
+
+.icon-nav-right:before {
+    content: ">";
+}
